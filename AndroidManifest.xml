@@ -1,8 +1,8 @@
-<manifest package="com.example.timeapp"
+<manifest package="com.example.codegenerator"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:label="Time App"
+        android:label="Code Generator"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity android:name=".MainActivity">
