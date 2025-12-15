@@ -1,8 +1,10 @@
-package com.example.codegen
+package com.example.timeapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import android.widget.*
+import android.widget.TextView
+import java.text.SimpleDateFormat
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,31 +12,30 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val input = findViewById<EditText>(R.id.inputCommand)
-        val button = findViewById<Button>(R.id.btnGenerate)
-        val output = findViewById<TextView>(R.id.outputCode)
+        val timeText = findViewById<TextView>(R.id.timeText)
+        val calcText = findViewById<TextView>(R.id.calcText)
 
-        button.setOnClickListener {
-            val command = input.text.toString().trim().uppercase()
-            output.text = generateCode(command)
-        }
+        val now = Date()
+        val format = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
+        val timeString = format.format(now)
+
+        timeText.text = "Current Time: $timeString"
+
+        val calendar = Calendar.getInstance()
+        val hour = calendar.get(Calendar.HOUR_OF_DAY)
+        val minute = calendar.get(Calendar.MINUTE)
+        val second = calendar.get(Calendar.SECOND)
+
+        val totalSeconds = hour * 3600 + minute * 60 + second
+
+        calcText.text = """
+            Hour: $hour
+            Minute: $minute
+            Second: $second
+            Seconds since midnight: $totalSeconds
+        """.trimIndent()
     }
-
-    private fun generateCode(command: String): String {
-        return when (command) {
-
-            "TIME" -> """
-                // Get current time
-                val time = java.text.SimpleDateFormat(
-                    "HH:mm:ss",
-                    java.util.Locale.getDefault()
-                ).format(java.util.Date())
-            """.trimIndent()
-
-            "WATCH" -> """
-                // Simple log watcher
-                android.util.Log.d("WATCH", "Watching event")
-            """.trimIndent()
+}            """.trimIndent()
 
             "IP", "IP ADDRESS" -> """
                 // Get local IP address
