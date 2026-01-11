@@ -1,51 +1,37 @@
 plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
+    id 'application'
 }
 
-android {
-    namespace 'com.example.screenmirrorserver'
-    compileSdk 34
+application {
+    mainClass = 'com.example.monitorapp.MainApp'
+}
 
-    defaultConfig {
-        applicationId "com.example.screenmirrorserver"
-        minSdk 26
-        targetSdk 34
-        versionCode 1
-        versionName "1.0"
-    }
+repositories {
+    mavenCentral()
+}
 
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    
-    kotlinOptions {
-        jvmTarget = '1.8'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    
-    // Coroutines for async operations
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
-    
-    // CardView
-    implementation 'androidx.cardview:cardview:1.0.0'
+    // JavaFX UI
+    implementation 'org.openjfx:javafx-controls:21'
+    implementation 'org.openjfx:javafx-graphics:21'
+    implementation 'org.openjfx:javafx-base:21'
+
+    // Network / WebSocket
+    implementation 'org.java-websocket:Java-WebSocket:1.5.6'
 }
 
-// For Monitor App, change:
-// namespace 'com.example.screenmirrormonitor'
-// applicationId "com.example.screenmirrormonitor"
+// Fixed monitor IP
+run {
+    systemProperty "MONITOR_IP", "10.162.97.207"
+}
+
+// Enable system tray (top icon connected / disconnected)
+applicationDefaultJvmArgs = [
+        "-Djava.awt.headless=false"
+]
