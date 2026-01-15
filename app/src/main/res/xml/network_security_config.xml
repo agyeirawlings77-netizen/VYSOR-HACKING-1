@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext (non-HTTPS) traffic for local network -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- Allow all local network addresses -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.162.97.207/16</domain>
+        <domain includeSubdomains="true">10.162.97.207/24</domain>
+        <domain includeSubdomains="true">10.162.97.207/8</domain>
+        <domain includeSubdomains="true">10.162.97.207/12</domain>
+        <domain includeSubdomains="true">localhost</domain>
+    </domain-config>
+</network-security-config>

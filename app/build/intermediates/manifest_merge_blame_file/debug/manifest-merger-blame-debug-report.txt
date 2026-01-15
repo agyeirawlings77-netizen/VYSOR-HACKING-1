@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.monitorapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Network Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:7:5-67
+12-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:8:5-79
+13-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:9:5-76
+14-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:10:5-76
+15-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:11:5-79
+16-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:11:22-76
+17
+18    <!-- Foreground Service -->
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:14:5-77
+19-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+20-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:15:5-94
+20-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:15:22-91
+21
+22    <!-- Overlay -->
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:18:5-78
+23-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:18:22-75
+24
+25    <!-- Wake Lock -->
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:21:5-68
+26-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:21:22-65
+27
+28    <!-- Notifications (Android 13+) -->
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:24:5-77
+29-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:24:22-74
+30
+31    <!-- Boot -->
+32    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+32-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:27:5-81
+32-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:27:22-78
+33
+34    <permission
+34-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+35        android:name="com.example.monitorapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.example.monitorapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:29:5-76:19
+41        android:allowBackup="true"
+41-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:30:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:35:9-43
+46        android:label="Target Phone"
+46-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:31:9-37
+47        android:networkSecurityConfig="@xml/network_security_config"
+47-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:34:9-69
+48        android:roundIcon="@mipmap/ic_launcher"
+48-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:36:9-48
+49        android:supportsRtl="true"
+49-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:32:9-35
+50        android:theme="@style/AppTheme" >
+50-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:33:9-40
+51
+52        <!-- Main Activity -->
+53        <activity
+53-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:40:9-51:20
+54            android:name="com.example.monitorapp.MainActivity"
+54-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:41:13-41
+55            android:exported="true"
+55-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:42:13-36
+56            android:launchMode="singleTask"
+56-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:44:13-44
+57            android:screenOrientation="portrait" >
+57-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:43:13-49
+58            <intent-filter>
+58-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:46:13-49:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:47:17-69
+59-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:47:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:48:17-77
+61-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:48:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <!-- Screen Capture Permission -->
+66        <activity
+66-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:54:9-57:75
+67            android:name="com.example.monitorapp.ScreenCapturePermissionActivity"
+67-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:55:13-60
+68            android:exported="false"
+68-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:56:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:57:13-72
+70
+71        <!-- Foreground Connection Service -->
+72        <service
+72-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:60:9-64:63
+73            android:name="com.example.monitorapp.ConnectionService"
+73-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:61:13-46
+74            android:enabled="true"
+74-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:62:13-35
+75            android:exported="false"
+75-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:63:13-37
+76            android:foregroundServiceType="mediaProjection" />
+76-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:64:13-60
+77
+78        <!-- Network State Receiver -->
+79        <receiver
+79-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:67:9-74:20
+80            android:name="com.example.monitorapp.NetworkStateReceiver"
+80-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:68:13-49
+81            android:enabled="true"
+81-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:69:13-35
+82            android:exported="false" >
+82-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:70:13-37
+83            <intent-filter>
+83-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:71:13-73:29
+84                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+84-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:72:17-79
+84-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:72:25-76
+85            </intent-filter>
+86        </receiver>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.monitorapp.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+100                android:value="androidx.startup" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+101        </provider>
+102
+103        <receiver
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+104            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+105            android:directBootAware="false"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+106            android:enabled="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+107            android:exported="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+108            android:permission="android.permission.DUMP" >
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+110                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+113                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+116                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+119                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+120            </intent-filter>
+121        </receiver>
+122    </application>
+123
+124</manifest>

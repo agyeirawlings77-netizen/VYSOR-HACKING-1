@@ -1,0 +1,439 @@
+2026-01-11T09:34:16.963+0000 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: /home/codespace/.gradle/native
+2026-01-11T09:34:17.037+0000 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized jansi services in: /home/codespace/.gradle/native
+2026-01-11T09:34:17.076+0000 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   For more details, please refer to https://docs.gradle.org/9.2.1/userguide/logging.html#sec:debug_security in the Gradle documentation.
+#############################################################################
+
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface enP48742s1
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:20d:3aff:fe7f:8a5c%enP48742s1
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface docker0
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.17.0.1
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface eth0
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:20d:3aff:fe7f:8a5c%eth0
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /10.0.1.118
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
+2026-01-11T09:34:17.186+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2026-01-11T09:34:17.235+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for metadata, path /home/codespace/.gradle/caches/9.2.1/jvms/metadata.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@21337f7b
+2026-01-11T09:34:17.311+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build ba152c78-5af6-4f32-8d16-9dcfba886536 in daemon client {pid=114658}
+2026-01-11T09:34:17.314+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2026-01-11T09:34:17.316+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-01-11T09:34:17.320+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-01-11T09:34:17.323+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Attempting to connect to [094aeeac-e0c5-4537-87ac-6ac703381ce6 port:40083, addresses:[/127.0.0.1]].
+2026-01-11T09:34:17.323+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Trying to connect to address /127.0.0.1.
+2026-01-11T09:34:17.328+0000 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Connected to address /127.0.0.1:40083.
+2026-01-11T09:34:17.341+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Connected to daemon DaemonInfo{pid=109265, address=[094aeeac-e0c5-4537-87ac-6ac703381ce6 port:40083, addresses:[/127.0.0.1]], state=Idle, lastBusy=1768124048956, context=DefaultDaemonContext[uid=225d511d-dc47-4aad-ada5-3b9c6dd29e47,javaHome=/usr/local/sdkman/candidates/java/21.0.9-ms,javaVersion=21,javaVendor=Microsoft,daemonRegistryDir=/home/codespace/.gradle/daemon,pid=109265,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=ba152c78-5af6-4f32-8d16-9dcfba886536, currentDir=/workspaces/VYSOR-HACKING-1}.
+2026-01-11T09:34:17.341+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Build
+2026-01-11T09:34:17.345+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result org.gradle.launcher.daemon.protocol.BuildStarted@73173f63 from daemon DaemonInfo{pid=109265, address=[094aeeac-e0c5-4537-87ac-6ac703381ce6 port:40083, addresses:[/127.0.0.1]], state=Idle, lastBusy=1768124048956, context=DefaultDaemonContext[uid=225d511d-dc47-4aad-ada5-3b9c6dd29e47,javaHome=/usr/local/sdkman/candidates/java/21.0.9-ms,javaVersion=21,javaVendor=Microsoft,daemonRegistryDir=/home/codespace/.gradle/daemon,pid=109265,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]} (build should be starting).
+2026-01-11T09:34:17.347+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 109265). The daemon log file: /home/codespace/.gradle/daemon/9.2.1/daemon-109265.out.log
+2026-01-11T09:34:17.349+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 71st build in daemon [uptime: 3 mins 46.804 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2026-01-11T09:34:17.351+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-01-11T09:34:17.351+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=225d511d-dc47-4aad-ada5-3b9c6dd29e47,javaHome=/usr/local/sdkman/candidates/java/21.0.9-ms,javaVersion=21,javaVendor=Microsoft,daemonRegistryDir=/home/codespace/.gradle/daemon,pid=109265,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]
+2026-01-11T09:34:17.352+0000 [INFO] [org.gradle.internal.work.DefaultWorkerLeaseService] Using 2 worker leases.
+2026-01-11T09:34:17.353+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: acquired lock on worker lease
+2026-01-11T09:34:17.353+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Run build' started
+2026-01-11T09:34:17.353+0000 [INFO] [org.gradle.internal.buildtree.BuildTreeModelControllerServices] Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+2026-01-11T09:34:17.363+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for fileHashes, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@1062b37e
+2026-01-11T09:34:17.367+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes)
+2026-01-11T09:34:17.367+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes).
+2026-01-11T09:34:17.368+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes).
+2026-01-11T09:34:17.368+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for outputFiles, path /workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@52f7321e
+2026-01-11T09:34:17.368+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for Build Output Cleanup Cache (/workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup)
+2026-01-11T09:34:17.369+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on Build Output Cleanup Cache (/workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup).
+2026-01-11T09:34:17.369+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on Build Output Cleanup Cache (/workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup).
+2026-01-11T09:34:17.369+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for resourceHashesCache, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@1062b37e
+2026-01-11T09:34:17.370+0000 [INFO] [org.gradle.internal.watch.registry.impl.WatchableHierarchies] Not watching /workspaces/VYSOR-HACKING-1 since the file system is not supported
+2026-01-11T09:34:17.375+0000 [INFO] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] Watching the file system is configured to be enabled if available
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] Watching the file system computed to be enabled if available
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build started for file system watching' started
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected overlay: / from overlay (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected proc: /proc from proc (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /dev from tmpfs (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected devpts: /dev/pts from devpts (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected sysfs: /sys from sysfs (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected cgroup2: /sys/fs/cgroup from cgroup (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected mqueue: /dev/mqueue from mqueue (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /dev/shm from shm (remote: false)
+2026-01-11T09:34:17.375+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /usr/sbin/docker-init from /dev/root (remote: false)
+2026-01-11T09:34:17.377+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /tmp from /dev/sdb1 (remote: false)
+2026-01-11T09:34:17.377+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /vscode from /dev/root (remote: false)
+2026-01-11T09:34:17.377+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /workspaces from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.377+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /.codespaces/bin from /dev/root (remote: false)
+2026-01-11T09:34:17.377+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /etc/resolv.conf from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /etc/hostname from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /etc/hosts from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /home/vscode/.minikube from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /var/lib/docker from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /workspaces/.codespaces/.persistedshare from /dev/loop4 (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /workspaces/.codespaces/shared from /dev/root (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected securityfs: /sys/kernel/security from none (remote: false)
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Build started for file system watching'
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build started for file system watching' completed
+2026-01-11T09:34:17.378+0000 [INFO] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] File system watching is active
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load build' started
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.initialization.properties.DefaultGradlePropertiesLoader] Found env project properties: []
+2026-01-11T09:34:17.378+0000 [DEBUG] [org.gradle.initialization.properties.DefaultGradlePropertiesLoader] Found system project properties: []
+2026-01-11T09:34:17.379+0000 [DEBUG] [org.gradle.initialization.DefaultSettingsLoader] Loading build definition for build: ':'
+2026-01-11T09:34:17.379+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Evaluate settings' started
+2026-01-11T09:34:17.379+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for workingDirs, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/vcsMetadata/workingDirs.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@32638525
+2026-01-11T09:34:17.380+0000 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /workspaces/VYSOR-HACKING-1/gradle/dependency-locks
+2026-01-11T09:34:17.380+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md5-checksums, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums/md5-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@3e32457f
+2026-01-11T09:34:17.381+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for checksums cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums)
+2026-01-11T09:34:17.382+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on checksums cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums).
+2026-01-11T09:34:17.382+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on checksums cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums).
+2026-01-11T09:34:17.382+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha1-checksums, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums/sha1-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@3e32457f
+2026-01-11T09:34:17.383+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha256-checksums, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums/sha256-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@3e32457f
+2026-01-11T09:34:17.383+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha512-checksums, path /workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums/sha512-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@3e32457f
+2026-01-11T09:34:17.383+0000 [DEBUG] [org.gradle.api.internal.artifacts.mvnsettings.DefaultLocalMavenRepositoryLocator] No local repository in Settings file defined. Using default path: /home/codespace/.m2/repository
+2026-01-11T09:34:17.388+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md-supplier, path /home/codespace/.gradle/caches/9.2.1/md-supplier/md-supplier.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@793c8a44
+2026-01-11T09:34:17.393+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-supplier (/home/codespace/.gradle/caches/9.2.1/md-supplier)
+2026-01-11T09:34:17.393+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-supplier (/home/codespace/.gradle/caches/9.2.1/md-supplier).
+2026-01-11T09:34:17.395+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-supplier (/home/codespace/.gradle/caches/9.2.1/md-supplier).
+2026-01-11T09:34:17.395+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md-rule, path /home/codespace/.gradle/caches/9.2.1/md-rule/md-rule.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@4814a81f
+2026-01-11T09:34:17.402+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-rule (/home/codespace/.gradle/caches/9.2.1/md-rule)
+2026-01-11T09:34:17.403+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-rule (/home/codespace/.gradle/caches/9.2.1/md-rule).
+2026-01-11T09:34:17.403+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-rule (/home/codespace/.gradle/caches/9.2.1/md-rule).
+2026-01-11T09:34:17.403+0000 [INFO] [org.gradle.internal.buildevents.BuildLogger] Starting Build
+2026-01-11T09:34:17.403+0000 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Gradle user home: /home/codespace/.gradle
+2026-01-11T09:34:17.403+0000 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Current dir: /workspaces/VYSOR-HACKING-1
+2026-01-11T09:34:17.406+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply settings file 'settings.gradle' to settings 'VYSOR-HACKING-1'' started
+2026-01-11T09:34:17.414+0000 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /workspaces/VYSOR-HACKING-1/gradle/dependency-locks
+2026-01-11T09:34:17.415+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply settings file 'settings.gradle' to settings 'VYSOR-HACKING-1''
+2026-01-11T09:34:17.415+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply settings file 'settings.gradle' to settings 'VYSOR-HACKING-1'' completed
+2026-01-11T09:34:17.415+0000 [DEBUG] [org.gradle.initialization.ScriptEvaluatingSettingsProcessor] Timing: Processing settings took: 0.036 secs
+2026-01-11T09:34:17.416+0000 [INFO] [org.gradle.internal.buildevents.BuildLogger] Settings evaluated using settings file '/workspaces/VYSOR-HACKING-1/settings.gradle'.
+2026-01-11T09:34:17.416+0000 [DEBUG] [org.gradle.caching.configuration.internal.DefaultBuildCacheConfiguration] Found class org.gradle.caching.local.internal.DirectoryBuildCacheServiceFactory registered for class org.gradle.caching.local.DirectoryBuildCache
+2026-01-11T09:34:17.416+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finalize build cache configuration' started
+2026-01-11T09:34:17.416+0000 [DEBUG] [org.gradle.caching.configuration.internal.DefaultBuildCacheConfiguration] Found class org.gradle.caching.local.internal.DirectoryBuildCacheServiceFactory registered for class org.gradle.caching.local.DirectoryBuildCache
+2026-01-11T09:34:17.418+0000 [INFO] [org.gradle.caching.internal.services.AbstractBuildCacheControllerFactory] Using local directory build cache for the root build (location = /home/codespace/.gradle/caches/build-cache-1, remove unused entries = after 7 days).
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Finalize build cache configuration'
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finalize build cache configuration' completed
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Evaluate settings'
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Evaluate settings' completed
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Load build'
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load build' completed
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Configure build' started
+2026-01-11T09:34:17.419+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load projects' started
+2026-01-11T09:34:17.420+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Load projects'
+2026-01-11T09:34:17.420+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load projects' completed
+2026-01-11T09:34:17.420+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify projectsLoaded listeners' started
+2026-01-11T09:34:17.420+0000 [INFO] [org.gradle.internal.buildevents.BuildLogger] Projects loaded. Root project using build file '/workspaces/VYSOR-HACKING-1/build.gradle'.
+2026-01-11T09:34:17.423+0000 [INFO] [org.gradle.internal.buildevents.BuildLogger] Included projects: [root project 'monitor_apk_full']
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Notify projectsLoaded listeners'
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify projectsLoaded listeners' completed
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Configure project :' started
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify beforeEvaluate listeners of :' started
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Notify beforeEvaluate listeners of :'
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.help-tasks to root project 'monitor_apk_full'' started
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :help' started
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :help'
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :projects' started
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :projects'
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :tasks' started
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :tasks'
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :properties' started
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :properties'
+2026-01-11T09:34:17.429+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply plugin org.gradle.help-tasks to root project 'monitor_apk_full''
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.software-reporting-tasks to root project 'monitor_apk_full'' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :dependencyInsight' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :dependencyInsight'
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :dependencies' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :dependencies'
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :buildEnvironment' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :buildEnvironment'
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :outgoingVariants' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :outgoingVariants'
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :resolvableConfigurations' started
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :resolvableConfigurations'
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :artifactTransforms' started
+2026-01-11T09:34:17.434+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :artifactTransforms'
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply plugin org.gradle.software-reporting-tasks to root project 'monitor_apk_full''
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.build-init to root project 'monitor_apk_full'' started
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :init' started
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :init'
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply plugin org.gradle.build-init to root project 'monitor_apk_full''
+2026-01-11T09:34:17.436+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.wrapper to root project 'monitor_apk_full'' started
+2026-01-11T09:34:17.436+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :wrapper' started
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :wrapper'
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply plugin org.gradle.wrapper to root project 'monitor_apk_full''
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :updateDaemonJvm' started
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :updateDaemonJvm'
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :javaToolchains' started
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :javaToolchains'
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :prepareKotlinBuildScriptModel' started
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Register task :prepareKotlinBuildScriptModel'
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify afterEvaluate listeners of :' started
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Notify afterEvaluate listeners of :'
+2026-01-11T09:34:17.423+0000 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] 
+2026-01-11T09:34:17.423+0000 [LIFECYCLE] [org.gradle.internal.logging.progress.ProgressLoggerFactory] > Configure project :
+2026-01-11T09:34:17.423+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: acquired lock on state of build :
+2026-01-11T09:34:17.425+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify beforeEvaluate listeners of :' completed
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' from state Registered to Created
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Discovered.
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.model.internal.registry.DefaultModelRegistry] Project : - Transitioning model element '<root>' to state Created.
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :help' completed
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :projects' completed
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :tasks' completed
+2026-01-11T09:34:17.426+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :properties' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.help-tasks to root project 'monitor_apk_full'' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :dependencyInsight' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :dependencies' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :buildEnvironment' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :outgoingVariants' completed
+2026-01-11T09:34:17.430+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :resolvableConfigurations' completed
+2026-01-11T09:34:17.434+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :artifactTransforms' completed
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.software-reporting-tasks to root project 'monitor_apk_full'' completed
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :init' completed
+2026-01-11T09:34:17.435+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.build-init to root project 'monitor_apk_full'' completed
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :wrapper' completed
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply plugin org.gradle.wrapper to root project 'monitor_apk_full'' completed
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :updateDaemonJvm' completed
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :javaToolchains' completed
+2026-01-11T09:34:17.437+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Register task :prepareKotlinBuildScriptModel' completed
+2026-01-11T09:34:17.437+0000 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating root project 'monitor_apk_full' using build file '/workspaces/VYSOR-HACKING-1/build.gradle'.
+2026-01-11T09:34:17.438+0000 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /workspaces/VYSOR-HACKING-1/gradle/dependency-locks
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.002 secs
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify afterEvaluate listeners of :' completed
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: released lock on state of build :
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Configure project :'
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Configure project :' completed
+2026-01-11T09:34:17.440+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify projectsEvaluated listeners' started
+2026-01-11T09:34:17.440+0000 [INFO] [org.gradle.internal.buildevents.BuildLogger] All projects evaluated.
+2026-01-11T09:34:17.441+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Notify projectsEvaluated listeners'
+2026-01-11T09:34:17.441+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Notify projectsEvaluated listeners' completed
+2026-01-11T09:34:17.441+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Configure build'
+2026-01-11T09:34:17.441+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Configure build' completed
+2026-01-11T09:34:17.441+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Calculate build tree task graph' started
+2026-01-11T09:34:17.442+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Calculate task graph' started
+2026-01-11T09:34:17.442+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: acquired lock on All projects of :
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: released lock on All projects of :
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Calculate task graph'
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Calculate task graph' completed
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Calculate build tree task graph'
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Calculate build tree task graph' completed
+2026-01-11T09:34:17.446+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finish root build tree' started
+2026-01-11T09:34:17.450+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Finish root build tree'
+2026-01-11T09:34:17.450+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finish root build tree' completed
+2026-01-11T09:34:17.458+0000 [WARN] [org.gradle.problems.internal.impl.DefaultProblemsReportCreator] 
+[Incubating] Problems report is available at: file:///workspaces/VYSOR-HACKING-1/build/reports/problems/problems-report.html
+2026-01-11T09:34:17.459+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2026-01-11T09:34:17.459+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] FAILURE: Build failed with an exception.
+2026-01-11T09:34:17.459+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2026-01-11T09:34:17.459+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * What went wrong:
+2026-01-11T09:34:17.459+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Task 'assembleDebug' not found in root project 'monitor_apk_full'.
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Try:
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] > Run gradlew tasks to get a list of available tasks.
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] > For more on name expansion, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:name_abbreviation in the Gradle documentation.
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] > Run with --scan to generate a Build Scan (powered by Develocity).
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] > Get more help at https://help.gradle.org.
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Exception is:
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] org.gradle.execution.TaskSelectionException: Task 'assembleDebug' not found in root project 'monitor_apk_full'.
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultTaskSelector.throwTaskSelectionException(DefaultTaskSelector.java:99)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultTaskSelector.getSelection(DefaultTaskSelector.java:88)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.selection.DefaultBuildTaskSelector.resolveTaskName(DefaultBuildTaskSelector.java:109)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:49)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.TaskNameResolvingBuildTaskScheduler.scheduleRequestedTasks(TaskNameResolvingBuildTaskScheduler.java:66)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultTasksBuildTaskScheduler.scheduleRequestedTasks(DefaultTasksBuildTaskScheduler.java:72)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultTaskExecutionPreparer.lambda$scheduleRequestedTasks$0(DefaultTaskExecutionPreparer.java:47)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.Factories$1.create(Factories.java:33)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:269)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:42)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:267)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$withReplacedLocks$3(DefaultWorkerLeaseService.java:365)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:337)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withReplacedLocks(DefaultWorkerLeaseService.java:364)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$DefaultBuildProjectRegistry.withMutableStateOfAllProjects(DefaultProjectStateRegistry.java:254)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.project.DefaultProjectStateRegistry$DefaultBuildProjectRegistry.withMutableStateOfAllProjects(DefaultProjectStateRegistry.java:247)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultTaskExecutionPreparer.scheduleRequestedTasks(DefaultTaskExecutionPreparer.java:46)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.VintageBuildModelController.lambda$scheduleRequestedTasks$0(VintageBuildModelController.java:75)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$inState$1(StateTransitionController.java:99)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$inState$2(StateTransitionController.java:114)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.inState(StateTransitionController.java:110)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.inState(StateTransitionController.java:98)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.VintageBuildModelController.scheduleRequestedTasks(VintageBuildModelController.java:75)
+2026-01-11T09:34:17.460+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildLifecycleController$DefaultWorkGraphBuilder.addRequestedTasks(DefaultBuildLifecycleController.java:404)
+2026-01-11T09:34:17.462+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.lambda$scheduleRequestedTasks$0(DefaultBuildTreeWorkPreparer.java:40)
+2026-01-11T09:34:17.462+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$populateWorkGraph$7(DefaultBuildLifecycleController.java:189)
+2026-01-11T09:34:17.462+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildWorkPreparer.populateWorkGraph(DefaultBuildWorkPreparer.java:42)
+2026-01-11T09:34:17.462+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.BuildOperationFiringBuildWorkPreparer$PopulateWorkGraph.populateTaskGraph(BuildOperationFiringBuildWorkPreparer.java:106)
+2026-01-11T09:34:17.462+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.BuildOperationFiringBuildWorkPreparer$PopulateWorkGraph.run(BuildOperationFiringBuildWorkPreparer.java:92)
+2026-01-11T09:34:17.463+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+2026-01-11T09:34:17.463+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.BuildOperationFiringBuildWorkPreparer.populateWorkGraph(BuildOperationFiringBuildWorkPreparer.java:67)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildLifecycleController.lambda$populateWorkGraph$8(DefaultBuildLifecycleController.java:189)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$inState$1(StateTransitionController.java:99)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$inState$2(StateTransitionController.java:114)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.inState(StateTransitionController.java:110)
+2026-01-11T09:34:17.464+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.inState(StateTransitionController.java:98)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildLifecycleController.populateWorkGraph(DefaultBuildLifecycleController.java:189)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.build.DefaultBuildWorkGraphController$DefaultBuildWorkGraph.populateWorkGraph(DefaultBuildWorkGraphController.java:169)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultBuildController.populateWorkGraph(DefaultBuildController.java:76)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultIncludedBuildTaskGraph$DefaultBuildTreeWorkGraphBuilder.withWorkGraph(DefaultIncludedBuildTaskGraph.java:155)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.lambda$scheduleRequestedTasks$1(DefaultBuildTreeWorkPreparer.java:40)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultIncludedBuildTaskGraph$DefaultBuildTreeWorkGraph$1.run(DefaultIncludedBuildTaskGraph.java:211)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultIncludedBuildTaskGraph$DefaultBuildTreeWorkGraph.scheduleWork(DefaultIncludedBuildTaskGraph.java:206)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeWorkPreparer.scheduleRequestedTasks(DefaultBuildTreeWorkPreparer.java:36)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.barrier.BarrierAwareBuildTreeWorkPreparer.scheduleRequestedTasks$lambda$0(BarrierAwareBuildTreeWorkPreparer.kt:34)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.barrier.VintageConfigurationTimeActionRunner.runConfigurationTimeAction(VintageConfigurationTimeActionRunner.kt:48)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.barrier.BarrierAwareBuildTreeWorkPreparer.scheduleRequestedTasks(BarrierAwareBuildTreeWorkPreparer.kt:33)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.VintageBuildTreeWorkController$scheduleAndRunRequestedTasks$1.apply(VintageBuildTreeWorkController.kt:36)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.VintageBuildTreeWorkController$scheduleAndRunRequestedTasks$1.apply(VintageBuildTreeWorkController.kt:35)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultIncludedBuildTaskGraph.withNewWorkGraph(DefaultIncludedBuildTaskGraph.java:114)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.cc.impl.VintageBuildTreeWorkController.scheduleAndRunRequestedTasks(VintageBuildTreeWorkController.kt:35)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$scheduleAndRunTasks$1(DefaultBuildTreeLifecycleController.java:77)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$runBuild$4(DefaultBuildTreeLifecycleController.java:120)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$transition$6(StateTransitionController.java:169)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:266)
+2026-01-11T09:34:17.465+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.lambda$transition$7(StateTransitionController.java:169)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:45)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.model.StateTransitionController.transition(StateTransitionController.java:169)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.runBuild(DefaultBuildTreeLifecycleController.java:117)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRunTasks(DefaultBuildTreeLifecycleController.java:77)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.scheduleAndRunTasks(DefaultBuildTreeLifecycleController.java:72)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.ProblemReportingBuildActionRunner.run(ProblemReportingBuildActionRunner.java:54)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:83)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner.run(FileSystemWatchingBuildActionRunner.java:135)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:54)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.lambda$execute$0(RootBuildLifecycleBuildActionExecutor.java:56)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:126)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.execute(RootBuildLifecycleBuildActionExecutor.java:56)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.InitDeprecationLoggingActionExecutor.execute(InitDeprecationLoggingActionExecutor.java:62)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.InitProblems.execute(InitProblems.java:36)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.DefaultBuildTreeContext.execute(DefaultBuildTreeContext.java:40)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.lambda$execute$0(BuildTreeLifecycleBuildActionExecutor.java:71)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildtree.BuildTreeState.run(BuildTreeState.java:60)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.execute(BuildTreeLifecycleBuildActionExecutor.java:71)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$2.call(RunAsBuildOperationBuildActionExecutor.java:65)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$2.call(RunAsBuildOperationBuildActionExecutor.java:61)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor.execute(RunAsBuildOperationBuildActionExecutor.java:61)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.lambda$execute$0(RunAsWorkerThreadBuildActionExecutor.java:36)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:269)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.ResourceLockStatistics$1.measure(ResourceLockStatistics.java:42)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:267)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:259)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.execute(RunAsWorkerThreadBuildActionExecutor.java:36)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.continuous.ContinuousBuildActionExecutor.execute(ContinuousBuildActionExecutor.java:110)
+2026-01-11T09:34:17.466+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecutor.execute(SubscribableBuildActionExecutor.java:64)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.session.DefaultBuildSessionContext.execute(DefaultBuildSessionContext.java:46)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor$ActionImpl.apply(BuildSessionLifecycleBuildActionExecutor.java:92)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor$ActionImpl.apply(BuildSessionLifecycleBuildActionExecutor.java:80)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.session.BuildSessionState.run(BuildSessionState.java:73)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor.execute(BuildSessionLifecycleBuildActionExecutor.java:62)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.BuildSessionLifecycleBuildActionExecutor.execute(BuildSessionLifecycleBuildActionExecutor.java:41)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.StartParamsValidatingActionExecutor.execute(StartParamsValidatingActionExecutor.java:57)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.StartParamsValidatingActionExecutor.execute(StartParamsValidatingActionExecutor.java:32)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.SessionFailureReportingActionExecutor.execute(SessionFailureReportingActionExecutor.java:51)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.SessionFailureReportingActionExecutor.execute(SessionFailureReportingActionExecutor.java:39)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.SetupLoggingActionExecutor.execute(SetupLoggingActionExecutor.java:47)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.buildprocess.execution.SetupLoggingActionExecutor.execute(SetupLoggingActionExecutor.java:31)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:70)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.lambda$execute$0(ForwardClientInput.java:40)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.daemon.clientinput.ClientInputForwarder.forwardInput(ClientInputForwarder.java:80)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:37)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:64)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:63)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:84)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:52)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.lambda$runCommand$0(DaemonStateCoordinator.java:321)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildResultLogger] 
+2026-01-11T09:34:17.467+0000 [ERROR] [org.gradle.internal.buildevents.BuildResultLogger] BUILD FAILED in 1s
+2026-01-11T09:34:17.467+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build finished for file system watching' started
+2026-01-11T09:34:17.468+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Build finished for file system watching'
+2026-01-11T09:34:17.468+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build finished for file system watching' completed
+2026-01-11T09:34:17.471+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-supplier (/home/codespace/.gradle/caches/9.2.1/md-supplier)
+2026-01-11T09:34:17.471+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-supplier (/home/codespace/.gradle/caches/9.2.1/md-supplier).
+2026-01-11T09:34:17.471+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Build Output Cleanup Cache (/workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup)
+2026-01-11T09:34:17.471+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Build Output Cleanup Cache (/workspaces/VYSOR-HACKING-1/.gradle/buildOutputCleanup).
+2026-01-11T09:34:17.472+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Build cache (/home/codespace/.gradle/caches/build-cache-1) has last been fully cleaned up 2 hours ago
+2026-01-11T09:34:17.472+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for Build cache (/home/codespace/.gradle/caches/build-cache-1) as it is not yet due
+2026-01-11T09:34:17.472+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Build cache (/home/codespace/.gradle/caches/build-cache-1) was closed 0 times.
+2026-01-11T09:34:17.472+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-rule (/home/codespace/.gradle/caches/9.2.1/md-rule)
+2026-01-11T09:34:17.473+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-rule (/home/codespace/.gradle/caches/9.2.1/md-rule).
+2026-01-11T09:34:17.473+0000 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 0 resolution results binary files in 0.0 secs
+2026-01-11T09:34:17.473+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Run build'
+2026-01-11T09:34:17.473+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Run build' completed
+2026-01-11T09:34:17.473+0000 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: released lock on worker lease
+2026-01-11T09:34:17.474+0000 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+2026-01-11T09:34:17.474+0000 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+2026-01-11T09:34:17.474+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes)
+2026-01-11T09:34:17.474+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/fileHashes).
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for checksums cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums)
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on checksums cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/checksums).
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] VCS Checkout Cache (/workspaces/VYSOR-HACKING-1/.gradle/vcs-1) has last been fully cleaned up 2 hours ago
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for VCS Checkout Cache (/workspaces/VYSOR-HACKING-1/.gradle/vcs-1) as it is not yet due
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache VCS Checkout Cache (/workspaces/VYSOR-HACKING-1/.gradle/vcs-1) was closed 0 times.
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache VCS metadata (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/vcsMetadata) was closed 0 times.
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Compressed Files Expansion Cache (/workspaces/VYSOR-HACKING-1/.gradle/9.2.1/expanded) was closed 0 times.
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in /workspaces/VYSOR-HACKING-1/.gradle' started
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Deleting unused version-specific caches in /workspaces/VYSOR-HACKING-1/.gradle'
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in /workspaces/VYSOR-HACKING-1/.gradle' completed
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] dependencies-accessors (/home/codespace/.gradle/caches/9.2.1/dependencies-accessors) has last been fully cleaned up 2 hours ago
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for dependencies-accessors (/home/codespace/.gradle/caches/9.2.1/dependencies-accessors) as it is not yet due
+2026-01-11T09:34:17.475+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache dependencies-accessors (/home/codespace/.gradle/caches/9.2.1/dependencies-accessors) was closed 0 times.
+2026-01-11T09:34:17.477+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-01-11T09:34:17.685+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.CloseInput
+2026-01-11T09:34:17.685+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result Success[value=org.gradle.launcher.exec.BuildActionResult@66b7550d] from daemon DaemonInfo{pid=109265, address=[094aeeac-e0c5-4537-87ac-6ac703381ce6 port:40083, addresses:[/127.0.0.1]], state=Idle, lastBusy=1768124048956, context=DefaultDaemonContext[uid=225d511d-dc47-4aad-ada5-3b9c6dd29e47,javaHome=/usr/local/sdkman/candidates/java/21.0.9-ms,javaVersion=21,javaVendor=Microsoft,daemonRegistryDir=/home/codespace/.gradle/daemon,pid=109265,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]} (build should be done).
+2026-01-11T09:34:17.685+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Finished
+2026-01-11T09:34:17.685+0000 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: connection stop
+2026-01-11T09:34:17.692+0000 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache cache directory jvms (/home/codespace/.gradle/caches/9.2.1/jvms) was closed 0 times.
+2026-01-11T09:34:17.693+0000 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   For more details, please refer to https://docs.gradle.org/9.2.1/userguide/logging.html#sec:debug_security in the Gradle documentation.
+#############################################################################
+

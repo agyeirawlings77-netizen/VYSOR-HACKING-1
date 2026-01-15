@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="dark_gray">#424242</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="monitor_click">#EA4335</color>
+    <color name="monitor_cursor">#4285F4</color>
+    <color name="orange">#FF9800</color>
+    <color name="overlay_background">#80000000</color>
+    <color name="red">#F44336</color>
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_disconnected">#F44336</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Monitor App</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CardView">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="ConnectButton" parent="PrimaryButton">
+        <item name="android:backgroundTint">@color/green</item>
+    </style>
+    <style name="DisconnectButton" parent="PrimaryButton">
+        <item name="android:backgroundTint">@color/red</item>
+    </style>
+    <style name="HeaderText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="InfoText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="LabelText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="PermissionDenied" parent="PermissionStatus">
+        <item name="android:background">@color/red</item>
+    </style>
+    <style name="PermissionGranted" parent="PermissionStatus">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="PermissionStatus">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="PermissionWarning" parent="PermissionStatus">
+        <item name="android:background">@color/orange</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="StatusText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

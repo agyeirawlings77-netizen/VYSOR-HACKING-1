@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the layout for the touch overlay that shows monitor's cursor -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- Cursor View -->
+    <RelativeLayout
+        android:id="@+id/cursorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <!-- Outer Circle (Blue or Red) -->
+        <View
+            android:id="@+id/cursorOuter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/cursor_outer"
+            android:alpha="0.7"/>
+
+        <!-- Inner Circle (White) -->
+        <View
+            android:id="@+id/cursorInner"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/cursor_inner"
+            android:layout_centerInParent="true"
+            android:alpha="0.8"/>
+
+        <!-- Cursor Label -->
+        <TextView
+            android:id="@+id/cursorLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cursorOuter"
+            android:layout_marginStart="8dp"
+            android:text="MONITOR CURSOR"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@drawable/label_background"
+            android:padding="4dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

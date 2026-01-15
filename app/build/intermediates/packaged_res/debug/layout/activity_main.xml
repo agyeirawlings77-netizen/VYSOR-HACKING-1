@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 TARGET PHONE APP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvPermissionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ MONITOR ACTIONS VISIBLE TO YOU"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Disconnected"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMonitorIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitor IP Address:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etMonitorIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Monitor IP (e.g., 10.162.97.207)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔗 CONNECT TO MONITOR"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnDisconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❌ DISCONNECT"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#CCCCCC"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👁️ VISIBILITY SETTINGS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Monitor Actions on Screen"
+            android:textSize="16sp"/>
+
+        <Switch
+            android:id="@+id/switchShowActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ℹ️ When ON: You'll see visual indicators of what the monitor is doing on your screen.\n\nWhen OFF: Monitor actions are hidden from you."
+        android:textSize="14sp"
+        android:padding="12dp"
+        android:background="#FFF9C4"
+        android:textColor="#666666"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Device Info Section (ADDED) -->
+    <TextView
+        android:id="@+id/tvDeviceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Info"
+        android:textSize="14sp"
+        android:padding="12dp"
+        android:background="#E3F2FD"
+        android:textColor="#333333"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

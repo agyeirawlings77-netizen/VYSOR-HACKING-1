@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+    
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#424242</color>
+    
+    <color name="monitor_cursor">#4285F4</color>
+    <color name="monitor_click">#EA4335</color>
+    <color name="overlay_background">#80000000</color>
+    
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_disconnected">#F44336</color>
+    <color name="status_warning">#FF9800</color>
+</resources>

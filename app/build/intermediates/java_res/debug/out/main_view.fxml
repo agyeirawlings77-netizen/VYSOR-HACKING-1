@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="12"
+      alignment="TOP_CENTER"
+      style="-fx-background-color: #F5F5F5; -fx-padding: 16;">
+
+    <!-- HEADER -->
+    <Label text="🖥️ MONITOR APP"
+           style="-fx-font-size: 24px;
+                  -fx-font-weight: bold;
+                  -fx-background-color: #FF5722;
+                  -fx-text-fill: white;
+                  -fx-padding: 16;
+                  -fx-alignment: center;"
+           maxWidth="Infinity"/>
+
+    <!-- STATUS -->
+    <Label fx:id="tvStatus"
+           text="Status: Not Connected 🔴"
+           style="-fx-font-size: 18px;
+                  -fx-background-color: white;
+                  -fx-padding: 12;"/>
+
+    <Label fx:id="tvConnectedDevice"
+           text="No device connected"
+           style="-fx-font-size: 16px;
+                  -fx-background-color: white;
+                  -fx-padding: 12;"/>
+
+    <Label fx:id="tvLocalIp"
+           text="Monitor IP: 10.162.97.207"
+           style="-fx-font-size: 14px;
+                  -fx-background-color: #E3F2FD;
+                  -fx-text-fill: #1976D2;
+                  -fx-padding: 12;"/>
+
+    <!-- BUTTONS -->
+    <HBox spacing="8" alignment="CENTER">
+        <Button fx:id="btnStartServer"
+                text="▶ START SERVER"
+                style="-fx-background-color: #4CAF50;
+                       -fx-text-fill: white;
+                       -fx-padding: 12;"
+                HBox.hgrow="ALWAYS"/>
+
+        <Button fx:id="btnStopServer"
+                text="⏹ STOP SERVER"
+                style="-fx-background-color: #F44336;
+                       -fx-text-fill: white;
+                       -fx-padding: 12;"
+                HBox.hgrow="ALWAYS"/>
+    </HBox>
+
+    <!-- REMOTE SCREEN -->
+    <Label text="📱 REMOTE SCREEN VIEW"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <Label text="Viewer only — shows remote screen when connected"
+           style="-fx-font-size: 14px; -fx-text-fill: #666666;"/>
+
+    <StackPane style="-fx-background-color: black;"
+               VBox.vgrow="ALWAYS">
+        <ImageView fx:id="ivRemoteScreen"
+                   preserveRatio="true"
+                   fitWidth="900"
+                   style="-fx-background-color: #1E1E1E;"/>
+    </StackPane>
+
+    <!-- INFO -->
+    <Label text="ℹ Instructions:
+1. Start the server
+2. Target connects to this IP
+3. Status icon turns green when connected"
+           wrapText="true"
+           style="-fx-font-size: 12px;
+                  -fx-background-color: #FFF9C4;
+                  -fx-padding: 12;
+                  -fx-text-fill: #666666;"/>
+
+</VBox>
