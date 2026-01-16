@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.monitorapp-mergeDebugResources-29:/values-or/values-or.xml",
+            "outputFile": "com.example.monitorapp-mergeDebugResources-34:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-3/a594465be15303abde710899e2812e84/transformed/appcompat-1.7.0/res/values-or/values-or.xml",

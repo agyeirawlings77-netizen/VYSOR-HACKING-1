@@ -69,7 +69,12 @@ class ConnectionService : Service() {
             ACTION_START_SERVICE -> {
                 monitorIp = intent.getStringExtra(EXTRA_MONITOR_IP)
                 val resultCode = intent.getIntExtra(EXTRA_RESULT_CODE, -1)
-                val data = intent.getParcelableExtra<Intent>(EXTRA_DATA)
+                val data = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    intent.getParcelableExtra(EXTRA_DATA, Intent::class.java)
+                } else {
+                    @Suppress("DEPRECATION")
+                    intent.getParcelableExtra<Intent>(EXTRA_DATA)
+                }
                 
                 startForeground(NOTIFICATION_ID, createNotification("Starting service..."))
                 
@@ -93,18 +98,15 @@ class ConnectionService : Service() {
             try {
                 updateNotification("Connecting to monitor...")
                 
-                // Connect to monitor
                 val connected = connectionManager?.connect(ip) ?: false
                 
                 if (connected) {
-                    // Initialize screen capture
                     screenCaptureService = ScreenCaptureService(this@ConnectionService, resultCode, data)
                     screenCaptureService?.setFrameCallback { frameData ->
                         connectionManager?.sendFrame(frameData)
                     }
                     screenCaptureService?.start()
                     
-                    // Setup touch listener
                     connectionManager?.setTouchEventListener { eventType, x, y ->
                         commandHandler?.handleTouchEvent(eventType, x, y)
                     }

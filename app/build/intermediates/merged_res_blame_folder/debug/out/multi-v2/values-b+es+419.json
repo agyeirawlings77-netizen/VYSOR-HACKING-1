@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.monitorapp-mergeDebugResources-29:/values-b+es+419/values-b+es+419.xml",
+            "outputFile": "com.example.monitorapp-mergeDebugResources-34:/values-b+es+419/values-b+es+419.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-3/1b42768d46e8615cab3610d289edba31/transformed/material-1.12.0/res/values-b+es+419/values-b+es+419.xml",

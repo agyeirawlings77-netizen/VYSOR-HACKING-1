@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.monitorapp-mergeDebugResources-29:/values/values.xml",
+            "outputFile": "com.example.monitorapp-mergeDebugResources-34:/values/values.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-3/a594465be15303abde710899e2812e84/transformed/appcompat-1.7.0/res/values/values.xml",
@@ -97,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "/home/codespace/.gradle/caches/transforms-3/19057ccdb48b47f9d49295a4b5e407ec/transformed/activity-1.8.0/res/values/values.xml",
+                    "source": "/home/codespace/.gradle/caches/transforms-3/73e378c652db3e6012e95207c7f71507/transformed/activity-1.8.2/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -147,23 +147,6 @@
                         "endLines": "13702",
                         "endColumns": "24",
                         "endOffsets": "806985"
-                    }
-                },
-                {
-                    "source": "/home/codespace/.gradle/caches/transforms-3/524a9d17a48c019e8bbeff0c50a9e727/transformed/lifecycle-viewmodel-2.6.2/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
-                    },
-                    "to": {
-                        "startLines": "1893",
-                        "startColumns": "4",
-                        "startOffsets": "124876",
-                        "endColumns": "49",
-                        "endOffsets": "124921"
                     }
                 },
                 {
@@ -260,20 +243,20 @@
                     }
                 },
                 {
-                    "source": "/home/codespace/.gradle/caches/transforms-3/5e6297fbc600f189c2e136c7644d5514/transformed/lifecycle-runtime-2.6.2/res/values/values.xml",
+                    "source": "/home/codespace/.gradle/caches/transforms-3/a8942cb239636685853d6e99150082ee/transformed/lifecycle-viewmodel-2.7.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
+                        "endColumns": "49",
+                        "endOffsets": "100"
                     },
                     "to": {
-                        "startLines": "1890",
+                        "startLines": "1893",
                         "startColumns": "4",
-                        "startOffsets": "124719",
-                        "endColumns": "42",
-                        "endOffsets": "124757"
+                        "startOffsets": "124876",
+                        "endColumns": "49",
+                        "endOffsets": "124921"
                     }
                 },
                 {
@@ -293,6 +276,23 @@
                         "endLines": "109,9316,11281,11365",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,644923,716407,720923"
+                    }
+                },
+                {
+                    "source": "/home/codespace/.gradle/caches/transforms-3/907fa3b7fe67a09f6ed928d209c726e1/transformed/lifecycle-runtime-2.7.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "1890",
+                        "startColumns": "4",
+                        "startOffsets": "124719",
+                        "endColumns": "42",
+                        "endOffsets": "124757"
                     }
                 },
                 {

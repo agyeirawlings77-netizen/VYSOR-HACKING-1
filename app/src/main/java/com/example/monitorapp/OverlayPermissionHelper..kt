@@ -16,7 +16,7 @@ object OverlayPermissionHelper {
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             Settings.canDrawOverlays(context)
         } else {
-            true // Permission not required on older versions
+            true
         }
     }
     

@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="24"
 9        android:targetSdkVersion="34" />
 10
 11    <!-- Network Permissions -->
@@ -71,7 +71,7 @@
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 42-->[androidx.core:core:1.13.0] /home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 43        android:debuggable="true"
-44        android:extractNativeLibs="true"
+44        android:extractNativeLibs="false"
 45        android:icon="@mipmap/ic_launcher"
 45-->/workspaces/VYSOR-HACKING-1/app/src/main/AndroidManifest.xml:35:9-43
 46        android:label="Target Phone"
@@ -162,11 +162,11 @@
 94                android:value="androidx.startup" />
 94-->[androidx.emoji2:emoji2:1.3.0] /home/codespace/.gradle/caches/transforms-3/3b2d237e94be72e40bd68275acb7717b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 95            <meta-data
-95-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+95-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/codespace/.gradle/caches/transforms-3/ed9b22202104039fd3c1275f91b89d5a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
 96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-96-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+96-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/codespace/.gradle/caches/transforms-3/ed9b22202104039fd3c1275f91b89d5a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
 97                android:value="androidx.startup" />
-97-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/codespace/.gradle/caches/transforms-3/61c5dfbd116cb1e93949e3d37c25874b/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+97-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/codespace/.gradle/caches/transforms-3/ed9b22202104039fd3c1275f91b89d5a/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
 98            <meta-data
 98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/codespace/.gradle/caches/transforms-3/02e38ededf743588044789c7029ed782/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"

@@ -1,50 +1,46 @@
 [
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.monitorapp-merged_res-36:/drawable_cursor_inner.xml.flat",
+        "source": "com.example.monitorapp-main-38:/drawable/cursor_inner.xml"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/drawable_cursor_outer.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/drawable/cursor_outer.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.monitorapp-main-38:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/drawable_cursor_inner.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/drawable/cursor_inner.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/xml_network_security_config.xml.flat",
+        "source": "com.example.monitorapp-main-38:/xml/network_security_config.xml"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.monitorapp-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.monitorapp-main-38:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.monitorapp-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "com.example.monitorapp-main-33:/layout/activity_main.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/drawable_cursor_outer.xml.flat",
+        "source": "com.example.monitorapp-main-38:/drawable/cursor_outer.xml"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/drawable_label_background.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/drawable/label_background.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.monitorapp-main-38:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/xml_network_security_config.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/xml/network_security_config.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.monitorapp-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.monitorapp-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.monitorapp-main-38:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.monitorapp-merged_res-36:/layout_touch_overlay_layout.xml.flat",
+        "source": "com.example.monitorapp-main-38:/layout/touch_overlay_layout.xml"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/layout/activity_main.xml"
+        "merged": "com.example.monitorapp-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.monitorapp-main-38:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/layout_touch_overlay_layout.xml.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/layout/touch_overlay_layout.xml"
-    },
-    {
-        "merged": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/codespace/.gradle/daemon/8.2/com.example.monitorapp-main-33:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.monitorapp-merged_res-36:/drawable_label_background.xml.flat",
+        "source": "com.example.monitorapp-main-38:/drawable/label_background.xml"
     }
 ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.monitorapp-mergeDebugResources-29:/values-sk/values-sk.xml",
+            "outputFile": "com.example.monitorapp-mergeDebugResources-34:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/home/codespace/.gradle/caches/transforms-3/ae1b6adddcf951fe124cd5e61c5076d9/transformed/core-1.13.0/res/values-sk/values-sk.xml",
